@@ -29,4 +29,10 @@ def m3__litros(m3):
 
 
 def m3__barriles(m3):
-    barriles = m3 / 0.158
+    barriles = m3 / 6.29
+    return barriles
+
+
+def barriles__m3(barriles):
+    m3 = barriles * 6.29
+    return m3
